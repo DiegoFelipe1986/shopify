@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Grill from './components/Grill';
 import Navbar from './components/Navbar';

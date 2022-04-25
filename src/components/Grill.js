@@ -1,18 +1,20 @@
-import React from 'react'
+import React from 'react';
+import useShopify from "../hooks/useShopify"
 
 const Grill = () => {
-  return (
-    <div className='container grill mt-5'>
-        <div className='row'>
-            <div className='col-sm-6'>
-                hola
-            </div>
-            <div className='col-sm-6'>
-                hola
+    const { isLoading, users } = useShopify();
+    return (
+        <div className='container grill mt-5'>
+            <div className='row'>
+                <div className='col-sm-6'>
+                    hola
+                </div>
+                <div className='col-sm-6'>
+                    hola
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Grill

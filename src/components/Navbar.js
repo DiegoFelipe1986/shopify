@@ -1,13 +1,16 @@
+import React   from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-light bg-light">
-      <div className="container">
+    <>
+      <nav className="navbar navbar-light bg-light">
+        <div className="container">
 
           <h1 className="app-title">Product</h1>
 
-      </div>
-    </nav>
+        </div>
+      </nav>
+    </>
   )
 }
 
